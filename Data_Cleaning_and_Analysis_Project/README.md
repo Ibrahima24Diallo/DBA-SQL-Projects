@@ -1,4 +1,4 @@
-## Data Cleaning Project – Worldwide Layoffs (2020–2023)
+# Data Cleaning Project and Exploration – Worldwide Layoffs (2020–2023)
 
 
 
