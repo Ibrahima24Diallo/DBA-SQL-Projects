@@ -1,0 +1,19 @@
+-- =============== STORED PROCEDURE =======================
+
+-- CREATE A STORED PROCEDURE THAT SUMMARIZES MONTHLY SALES FOR A SELECTED MONTH.
+
+CREATE PROCEDURE sp_Sales_By_Month
+	   @Month VARCHAR(50)
+AS
+BEGIN
+	 SELECT DATENAME(MONTH, Order_Date) AS Months,
+			ROUND(SUM(Total_Paid), 2) AS Monthly_Sales
+	 FROM Orders 
+	 WHERE Order_Date IS NOT NULL AND DATENAME(MONTH, Order_Date) = @Month
+	 GROUP BY DATENAME(MONTH, Order_Date), MONTH(Order_Date)
+	 ORDER BY MONTH(Order_Date);
+END;
+
+-- CALLING THE STORED PROCEDURE BY SELECTING A SPECIFIC MONTH TO FIND OUT THE TOTAL REVENUE 
+EXEC sp_Sales_By_Month 
+	 @Month = 'May';
