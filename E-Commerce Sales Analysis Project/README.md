@@ -58,11 +58,12 @@ This made the data easier to manage and allowed me to use SQL joins to combine i
 
 After creating the tables, I used SQL Server to analyze the sales data and answer different business questions using SQL Queries.
 
-I first answered basic business questions then moved to more advanced analysis.
-
+I first answered basic business questions then moved to more advanced analysis.]
 Some of the analysis included:
 
 * Monthly revenue and total orders
+  <img width="772" height="189" alt="2_Monthly_Sales_Performance" src="https://github.com/user-attachments/assets/dfc29330-de03-4e9f-abb5-1ab19f17e7bf" />
+
 * Average order value
 * Top-selling products and revenue
 * Sales by vendor
