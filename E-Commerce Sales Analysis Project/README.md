@@ -82,15 +82,12 @@ Some of the analysis included:
 * Month-over-month revenue growth
 * Cumulative sales trend
 
-
+Sample SQL Queries
+<img width="619" height="244" alt="1_Sales_Refund_Analysis" src="https://github.com/user-attachments/assets/ff1b56ce-3a3c-4bd3-8dab-3f785ea6d281" />
 
 To answer these business questions, I used SQL features such as:
 
-
-
 JOIN, GROUP BY, HAVING, CASE, CTEs, Subqueries, Aggregate functions, Window functions, LAG(), ROW\_NUMBER()
-
-
 
 ## 4\) SQL Views
 
