@@ -71,8 +71,6 @@ Some of the views included:
 * Weekly Orders and Sales
 
 The views summarized the data that later in the project was used as a source for creating reports in Power BI.
-***Refer to the Views folder to see SQL Queries**
-
 
 ## 5\) Stored Procedures
 I created stored procedures to make some of the SQL code reusable instead of having to write the same query every time. I also used parameters so that different values could be entered without having to rewrite the SQL query.
@@ -83,7 +81,6 @@ The Stored Procedures included:
 * Viewing sales by vendor
 * Finding top products by revenue
 * Viewing sales by month
-**Refer to the Stored Procedures folder to see SQL Queries**
 
 ## 6\) Indexes
 I also created indexes to demonstrate performance optimization techniques. The purpose of these indexes was to help SQL Server improve the speed of data retrieval from table(s) by creating a lookup structure.
@@ -92,7 +89,6 @@ Examples included indexes on:
 * Order\_Date
 * CustomerInfo.Order\_ID
 * Products.SKU and Item\_Name
-**Refer to the Indexes folder to see SQL Queries**
 
 ## 7\) Triggers
 I created triggers to demonstrate database automation and data protection within a real business workflow.
@@ -106,7 +102,6 @@ The audit table also includes an AuditID to identify the user who deleted the re
 * Prevent Negative Total Amount
 I created a trigger that checks newly inserted orders.
 If for example the Total\_Paid is less than or equal to zero (<=0), the trigger prevents the transaction from going through and returns an error message.
-**Refer to the Triggers folder to see SQL Queries**
 
 ## 8\) Power BI Dashboard
 The SQL views was used to connect Power BI with SQL Server to create reports and visualization. The purpose is to use the cleaned and organized SQL Views data to create dashboards showing for example sales performance, products, vendors, orders, and other important business information in Power BI.
@@ -118,7 +113,7 @@ The SQL views was used to connect Power BI with SQL Server to create reports and
 ## 9\) Business Insights \& Recommendations
 After analyzing the sales data, I found several areas where the business could improve inventory planning, fulfillment, shipping, and customer marketing.
 
-**Product Performance**
+* **Product Performance**
 
 The Brassy Bra products showed more consistent sales across the months and appeared to perform especially well on Amazon, regardless of the product variant.
 
