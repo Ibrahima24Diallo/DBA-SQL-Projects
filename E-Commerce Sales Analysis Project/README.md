@@ -102,7 +102,7 @@ I created a trigger that checks newly inserted orders.
 If for example the Total\_Paid is less than or equal to zero (<=0), the trigger prevents the transaction from going through and returns an error message.
 
 ## 8\) Power BI Dashboard
-The SQL views was used to connect Power BI with SQL Server to create reports and visualization. The purpose is to use the cleaned and organized SQL Views data to create dashboards showing for example sales performance, products, vendors, orders, and other important business information in Power BI.
+The SQL views was used to connect Power BI with SQL Server to create reports and visualization. The purpose was to use the cleaned and organized SQL Views data to create an interactive dashboard showing for example sales performance, products, vendors, orders, and other important business information in Power BI.
 
 <img width="1851" height="801" alt="1_E-Commerce Sales Data Dashboard" src="https://github.com/user-attachments/assets/9486e498-9cac-455f-9f8e-6d49d29c436d" />
 
