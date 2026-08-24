@@ -13,16 +13,11 @@
 * Stored Procedures and Triggers
 * Power BI Sales Report
 
-
-
 ## Project Overview
-
 This project was based on an actual e-commerce sales data that I worked on in a professional work setting. I downloaded sales data from the company's Shopify store for the months of February through May. The data included sales from multiple e-commerce platforms, including Amazon, eBay, TikTok, and the company's website.
-
 The goal of the project was to clean the sales data, import it then organize it into a SQL Server database with tables then answer business questions by analyzing the data using SQL queries. Also, create multiple SQL views for reporting and connect Power BI directly to SQL Server views. Finally, design an interactive dashboard for sales, customer, product, and geographic analysis etc...
 
 ## 1) Data Cleaning in Excel
-
 I first used Excel to clean the raw sales data downloaded from the company's Shopify store before importing it into SQL Server.
 
 The cleaning process included:
@@ -34,32 +29,21 @@ The cleaning process included:
 
 After cleaning the data, I saved the final Excel file and made sure it was ready to be imported into SQL Server Management Studio (SSMS).
 
-
-
 ## 2\) Database Design in SQL Server
-
 After importing the cleaned data into SQL Server, I divided the data into three tables such as:
 
 * Orders – This table contains order details such Order\_ID, dates, payment information, fulfillment status, and order totals.
 * Products – This table contains product information such as SKU, item name, vendor, quantity, and price.
 * CustomerInfo – This table contains customer and shipping information.
-
-
-
-I used the Order\_ID as the primary key and the foreign key to create relationships between the three tables.
-
-This made the data easier to manage and allowed me to use SQL joins to combine information from the three tables.
-
-
+  
+I used the Order\_ID as the primary key and the foreign key to create relationships between the three tables. This made the data easier to manage and allowed me to use SQL joins to combine information from the three tables.
 
 ## 3\) SQL Data Analysis
-
 After creating the tables, I used SQL Server to analyze the sales data and answer different business questions using SQL features such as:
 JOIN, GROUP BY, HAVING, CASE, CTEs, Subqueries, Aggregate functions, Window functions, LAG(), ROW\_NUMBER()
 
 I first answered basic business questions then moved to more advanced analysis.
 Some of the analysis included:
-
 * Revenue by Vendor
 * Revenue by state
 * Top Selling Products
@@ -87,85 +71,54 @@ Some of the views included:
 * Weekly Orders and Sales
 
 The views summarized the data that later in the project was used as a source for creating reports in Power BI.
-
+**Refer to the Views folder to see SQL Queries**
 
 
 ## 5\) Stored Procedures
-
-I created stored procedures to make some of the SQL code reusable instead of having to write the same query every time.
+I created stored procedures to make some of the SQL code reusable instead of having to write the same query every time. I also used parameters so that different values could be entered without having to rewrite the SQL query.
 
 The Stored Procedures included:
-
 * Searching orders by date range
 * Searching orders by state
 * Viewing sales by vendor
 * Finding top products by revenue
 * Viewing sales by month
-
-
-
-I used parameters so that different values could be entered without having to rewrite the SQL query.
-
-
+**Refer to the Stored Procedures folder to see SQL Queries**
 
 ## 6\) Indexes
-
-I also created indexes to demonstrate performance optimization techniques.
+I also created indexes to demonstrate performance optimization techniques. The purpose of these indexes was to help SQL Server improve the speed of data retrieval from table(s) by creating a lookup structure.
 
 Examples included indexes on:
-
 * Order\_Date
 * CustomerInfo.Order\_ID
 * Products.SKU and Item\_Name
-
-
-
-The purpose of these indexes was to help SQL Server improve the speed of data retrieval from table(s) by creating a lookup structure.
-
-
+**Refer to the Indexes folder to see SQL Queries**
 
 ## 7\) Triggers
-
 I created triggers to demonstrate database automation and data protection within a real business workflow.
 
 Example of Triggers I created included
-
 * Deleted Order Audit
-
 I created an Orders\_Audit table to keep a record of all deleted orders.
-
 The trigger uses SQL Server's deleted temporary table to capture the records that were removed from the Orders table.
-
 The audit table also includes an AuditID to identify the user who deleted the record and the time the record was deleted.
 
-
-
 * Prevent Negative Total Amount
-
 I created a trigger that checks newly inserted orders.
-
 If for example the Total\_Paid is less than or equal to zero (<=0), the trigger prevents the transaction from going through and returns an error message.
-
-
+**Refer to the Triggers folder to see SQL Queries**
 
 ## 8\) Power BI Dashboard
+The SQL views was used to connect Power BI with SQL Server to create reports and visualization. The purpose is to use the cleaned and organized SQL Views data to create dashboards showing for example sales performance, products, vendors, orders, and other important business information in Power BI.
 
-The SQL views was used to connect Power BI with SQL Server to create reports and visualization.
-
-The purpose is to use the cleaned and organized SQL Views data to create dashboards showing for example sales performance, products, vendors, orders, and other important business information in Power BI.
 <img width="1851" height="801" alt="1_E-Commerce Sales Data Dashboard" src="https://github.com/user-attachments/assets/9486e498-9cac-455f-9f8e-6d49d29c436d" />
 
 <img width="1854" height="802" alt="2_E-Commerce Sales Data Dashboard" src="https://github.com/user-attachments/assets/4d97a003-3817-4421-bb18-6783d17ef5ac" />
 
-
-
 ## 9\) Business Insights \& Recommendations
-
 After analyzing the sales data, I found several areas where the business could improve inventory planning, fulfillment, shipping, and customer marketing.
 
-
-
-* **Product Performance**
+**Product Performance**
 
 The Brassy Bra products showed more consistent sales across the months and appeared to perform especially well on Amazon, regardless of the product variant.
 
