@@ -63,7 +63,7 @@ Some of the analysis included:
 **Monthly revenue, total orders and average order value (AOV)**
   <img width="772" height="189" alt="2_Monthly_Sales_Performance" src="https://github.com/user-attachments/assets/dfc29330-de03-4e9f-abb5-1ab19f17e7bf" />
   
-  <img width="735" height="147" alt="3_Revenue_by_Vendor" src="https://github.com/user-attachments/assets/b10b8c2a-ce43-4f42-86c0-bccfd59af515" />
+  
 
 
 **Revenue by state**
@@ -77,6 +77,10 @@ Some of the analysis included:
 
 **Cumulative sales trend**
   <img width="855" height="184" alt="image" src="https://github.com/user-attachments/assets/ee26ea18-98a5-48d5-8c1a-bae4f9e9d91b" />
+
+**Sales by vendor** 
+  <img width="735" height="147" alt="3_Revenue_by_Vendor" src="https://github.com/user-attachments/assets/b10b8c2a-ce43-4f42-86c0-bccfd59af515" />
+
 
 ## 4\) SQL Views
 I created several views to make data easier to work with and make commonly used analysis easier to access.
