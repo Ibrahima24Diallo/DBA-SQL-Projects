@@ -63,8 +63,7 @@ Some of the analysis included:
 **Monthly revenue, total orders and average order value (AOV)**
   <img width="772" height="189" alt="2_Monthly_Sales_Performance" src="https://github.com/user-attachments/assets/dfc29330-de03-4e9f-abb5-1ab19f17e7bf" />
   
-**Sales by vendor** 
-<img width="735" height="147" alt="3_Revenue_by_Vendor" src="https://github.com/user-attachments/assets/b10b8c2a-ce43-4f42-86c0-bccfd59af515" />
+**Sales by vendor**
 
 **Revenue by state**
   <img width="754" height="265" alt="4_Sales_by_State" src="https://github.com/user-attachments/assets/b9407d10-329a-4aba-bac3-9e656801e8c2" />
