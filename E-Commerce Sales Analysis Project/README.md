@@ -61,29 +61,17 @@ I first answered basic business questions then moved to more advanced analysis.
 Some of the analysis included:
 
 * Revenue by Vendor
-  <img width="735" height="147" alt="3_Revenue_by_Vendor" src="https://github.com/user-attachments/assets/b10b8c2a-ce43-4f42-86c0-bccfd59af515" />
-
+* Revenue by state
+* Top Selling Products
+  
 **Monthly revenue, total orders and average order value (AOV)**
   <img width="772" height="189" alt="2_Monthly_Sales_Performance" src="https://github.com/user-attachments/assets/dfc29330-de03-4e9f-abb5-1ab19f17e7bf" />
   
-  
-
-
-**Revenue by state**
-  <img width="754" height="265" alt="4_Sales_by_State" src="https://github.com/user-attachments/assets/b9407d10-329a-4aba-bac3-9e656801e8c2" />
-
-**Top Selling Products**
-  <img width="429" height="146" alt="8_Top_Selling_Products" src="https://github.com/user-attachments/assets/39e6536a-9a9a-4fd7-bc27-0624d27cf76a" />
-
 **Month-over-month revenue growth**
   <img width="777" height="285" alt="image" src="https://github.com/user-attachments/assets/ac94e9f6-0d56-4c5b-b342-59e9f84daaeb" />
 
 **Cumulative sales trend**
   <img width="855" height="184" alt="image" src="https://github.com/user-attachments/assets/ee26ea18-98a5-48d5-8c1a-bae4f9e9d91b" />
-
-**Sales by vendor** 
-  <img width="735" height="147" alt="3_Revenue_by_Vendor" src="https://github.com/user-attachments/assets/b10b8c2a-ce43-4f42-86c0-bccfd59af515" />
-
 
 ## 4\) SQL Views
 I created several views to make data easier to work with and make commonly used analysis easier to access.
