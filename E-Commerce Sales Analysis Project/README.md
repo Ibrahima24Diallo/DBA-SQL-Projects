@@ -32,8 +32,6 @@ The cleaning process included:
 * Formatting columns to the correct data types
 * Reviewing the data for any inconsistencies to avoid inaccurate analysis
 
-
-
 After cleaning the data, I saved the final Excel file and made sure it was ready to be imported into SQL Server Management Studio (SSMS).
 
 
