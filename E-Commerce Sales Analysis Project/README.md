@@ -71,7 +71,7 @@ Some of the views included:
 * Weekly Orders and Sales
 
 The views summarized the data that later in the project was used as a source for creating reports in Power BI.
-* Refer to the Views folder to see SQL Queries
+***Refer to the Views folder to see SQL Queries**
 
 
 ## 5\) Stored Procedures
