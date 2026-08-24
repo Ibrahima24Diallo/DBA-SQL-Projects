@@ -153,6 +153,7 @@ If for example the Total\_Paid is less than or equal to zero (<=0), the trigger 
 The SQL views was used to connect Power BI with SQL Server to create reports and visualization.
 
 The purpose is to use the cleaned and organized SQL Views data to create dashboards showing for example sales performance, products, vendors, orders, and other important business information in Power BI.
+<img width="1854" height="802" alt="2_E-Commerce Sales Data Dashboard" src="https://github.com/user-attachments/assets/4d97a003-3817-4421-bb18-6783d17ef5ac" />
 
 
 
