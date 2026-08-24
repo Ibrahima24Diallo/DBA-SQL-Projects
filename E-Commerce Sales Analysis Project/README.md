@@ -58,9 +58,9 @@ Some of the analysis included:
   <img width="855" height="184" alt="image" src="https://github.com/user-attachments/assets/ee26ea18-98a5-48d5-8c1a-bae4f9e9d91b" />
 
 ## 4\) SQL Views
-I created several views to make data easier to work with and make commonly used analysis easier to access.
-Some of the views included:
+I created several views to make data easier to work with and make commonly used analysis easier to access. The views summarized the data that later in the project was used as a source for creating reports in Power BI.
 
+Some of the views included:
 * Monthly Sales
 * Top Products
 * Sales by State
@@ -69,8 +69,6 @@ Some of the views included:
 * Shipping Analysis
 * Top Customers
 * Weekly Orders and Sales
-
-The views summarized the data that later in the project was used as a source for creating reports in Power BI.
 
 ## 5\) Stored Procedures
 I created stored procedures to make some of the SQL code reusable instead of having to write the same query every time. I also used parameters so that different values could be entered without having to rewrite the SQL query.
