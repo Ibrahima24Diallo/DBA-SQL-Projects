@@ -1,4 +1,4 @@
-use TownshopDB;
+
 --================ ANALYZING E-COMMERCE SALES DATA FOR MONTHS FEBRUARY THROUGH MAY======================
 
 --=====================PART 1: ANSWERING BUSINESS QUESTIONS USING SQL QUERIES===========================
