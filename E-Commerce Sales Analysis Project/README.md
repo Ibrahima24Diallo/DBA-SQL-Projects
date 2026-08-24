@@ -19,17 +19,11 @@
 
 This project was based on an actual e-commerce sales data that I worked on in a professional work setting. I downloaded sales data from the company's Shopify store for the months of February through May. The data included sales from multiple e-commerce platforms, including Amazon, eBay, TikTok, and the company's website.
 
+The goal of the project was to clean the sales data, import it then organize it into a SQL Server database with tables then answer business questions by analyzing the data using SQL queries. Also, create multiple SQL views for reporting and connect Power BI directly to SQL Server views. Finally, design an interactive dashboard for sales, customer, product, and geographic analysis etc...
 
-
-The goal of the project was to clean the sales data, import it then organize it into a SQL Server database with tables, analyze the data, and create reusable SQL objects for reporting and database management.
-
-
-
-## 1\) Data Cleaning in Excel
+## 1) Data Cleaning in Excel
 
 I first used Excel to clean the raw sales data downloaded from the company's Shopify store before importing it into SQL Server.
-
-
 
 The cleaning process included:
 
