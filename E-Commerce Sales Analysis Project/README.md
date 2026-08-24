@@ -73,10 +73,10 @@ Some of the analysis included:
 **Top Selling Products**
   <img width="429" height="146" alt="8_Top_Selling_Products" src="https://github.com/user-attachments/assets/39e6536a-9a9a-4fd7-bc27-0624d27cf76a" />
 
-*** Month-over-month revenue growth**
+**Month-over-month revenue growth**
   <img width="777" height="285" alt="image" src="https://github.com/user-attachments/assets/ac94e9f6-0d56-4c5b-b342-59e9f84daaeb" />
 
-*** Cumulative sales trend**
+**Cumulative sales trend**
   <img width="855" height="184" alt="image" src="https://github.com/user-attachments/assets/ee26ea18-98a5-48d5-8c1a-bae4f9e9d91b" />
 
 ## 4\) SQL Views
