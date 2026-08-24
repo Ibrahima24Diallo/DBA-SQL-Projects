@@ -60,7 +60,7 @@ JOIN, GROUP BY, HAVING, CASE, CTEs, Subqueries, Aggregate functions, Window func
 I first answered basic business questions then moved to more advanced analysis.
 Some of the analysis included:
 
-**Revenue by Vendor**
+* Revenue by Vendor
 <img width="735" height="147" alt="3_Revenue_by_Vendor" src="https://github.com/user-attachments/assets/b10b8c2a-ce43-4f42-86c0-bccfd59af515" />
 **Monthly revenue, total orders and average order value (AOV)**
   <img width="772" height="189" alt="2_Monthly_Sales_Performance" src="https://github.com/user-attachments/assets/dfc29330-de03-4e9f-abb5-1ab19f17e7bf" />
