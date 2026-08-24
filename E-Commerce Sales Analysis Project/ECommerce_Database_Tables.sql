@@ -1,6 +1,4 @@
 
-Use TownshopDB;
-
 --===================== DATABASE DESIGN ==================================
 
 --After importing the cleaned data into SQL Server, I separated the data into three tables:
@@ -32,11 +30,11 @@ Alter Column Shipping_Zipcode nvarchar(10);
 
 UPDATE shopify_sales_raw
 SET Item_Name = 'Gift Card'
-WHERE Item_Name LIKE '%Town Shop Extender Gift Card%';
+WHERE Item_Name LIKE '%Extender Gift Card%';
 
 UPDATE shopify_sales_raw
 SET Vendor = 'Bra Extender'
-WHERE Vendor = 'Town Shop Extender'
+WHERE Vendor = 'Shop Extender'
 
 
 -- CREATING 3 DIFFERENTS TABLES FROM THE RAW DATA USING SQL
