@@ -1,0 +1,16 @@
+-- CREATE A VIEW THAT ANALYZES MONTHLY SALES BY FINDING:
+
+-- MONTH
+-- TOTAL ORDERS
+-- REVENUE
+-- AVERAGE ORDER VALUE
+
+CREATE VIEW vw_Monthly_Sales AS
+SELECT DATENAME(MONTH, Order_Date) AS Months, 
+	   COUNT(Order_ID) AS Total_Orders,
+	   ROUND(SUM(Total_Paid),2) AS Total_Revenue,
+	   ROUND(SUM(Total_Paid) / NULLIF(COUNT(Order_ID), 0), 2) AS Avg_Order_Value
+FROM Orders 
+WHERE Order_Date IS NOT NULL
+GROUP BY DATENAME(MONTH, Order_Date), MONTH(Order_Date);
+
