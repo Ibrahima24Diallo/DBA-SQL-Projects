@@ -3,7 +3,6 @@
 
 
 ## Skills Demonstrated in This Project
-
 * Excel Data Cleaning
 * Database Design using SQL Server
 * Data Analysis using SQL Queries
@@ -30,13 +29,13 @@ The cleaning process included:
 After cleaning the data, I saved the final Excel file and made sure it was ready to be imported into SQL Server Management Studio (SSMS).
 
 ## 2\) Database Design in SQL Server
-After importing the cleaned data into SQL Server, I divided the data into three tables such as:
+After importing the cleaned data into SQL Server, I divided the data into three tables such as the:
 
 * Orders – This table contains order details such Order\_ID, dates, payment information, fulfillment status, and order totals.
 * Products – This table contains product information such as SKU, item name, vendor, quantity, and price.
 * CustomerInfo – This table contains customer and shipping information.
   
-I used the Order\_ID as the primary key and the foreign key to create relationships between the three tables. This made the data easier to manage and allowed me to use SQL joins to combine information from the three tables.
+I used the Order\_ID as the primary key and the foreign key to create relationships between the three tables. This made the data easier to manage and allowed me to use SQL joins to combine data from the three tables.
 
 ## 3\) SQL Data Analysis
 After creating the tables, I used SQL Server to analyze the sales data and answer different business questions using SQL features such as:
